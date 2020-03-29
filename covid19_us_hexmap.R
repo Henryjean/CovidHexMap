@@ -73,8 +73,8 @@ df_center <- tibble(abbr = us_hex$state_abbr) %>%
 df <- left_join(df, df_center, by = c("state_abbr" = "abbr"))
 
 
-#Make the text color white if it's above the median deaths per million and black otherwise
-df$textColor <- ifelse(df$total.deaths.per.million >= median(df$total.deaths.per.million, na.rm  = TRUE), "white", "black")
+#Make the text color white if it's above the third quartile deaths per million and black otherwise
+df$textColor <- ifelse(df$total.deaths.per.million >= quantile(df$total.deaths.per.million, .75, na.rm = TRUE), "white", "black")
 
 
 #Create an outline of the United States
