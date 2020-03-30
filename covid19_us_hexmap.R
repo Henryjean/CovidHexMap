@@ -102,7 +102,7 @@ p <- df %>%
   theme(text=element_text(size=14,  family="Gill Sans MT"), 
         plot.title = element_text(hjust = 0.5, face = "bold",  vjust = 0, size = 15),
         plot.subtitle = element_text(hjust = 0.5, size = 9, vjust = 0), 
-        plot.caption = element_text(face = "italic", size = 8, hjust = .5, vjust = 0), 
+        plot.caption = element_text(face = "italic", size = 8, hjust = .5, vjust = 8), 
         legend.spacing.x = unit(0, 'cm'), 
         legend.title=element_text(size=11), 
         legend.text = element_text(size = rel(0.6)), 
