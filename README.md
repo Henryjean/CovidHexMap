@@ -1,6 +1,6 @@
 ![](DeathsPerMillion.png)
 
-[R code](https://github.com/Henryjean/CovidHexMap/blob/master/covid19_us_hexmap.R) on how to scrape and visualize COVID-19 data
+[R code](https://github.com/Henryjean/CovidHexMap/blob/master/covid19_us_hexmap.R) on how to scrape and visualize data from the [COVID Tracking Project](https://covidtracking.com/)
 
 ## Author
 Owen Phillips ([@llewellyn_jean](https://instagram.com/llewellyn_jean/))
